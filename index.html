@@ -43,7 +43,9 @@
     <h1 class="header">Conway's Game of Life</h1>
     <div class="buttons">
       <button type="button" id="gameStarter" onclick="start();">Run</button>
-      <button type="button" id="gameStarter" onclick="reset();">Reset</button>
+      <button type="button" id="gameReset" onclick="reset();">Reset</button>
+      <button type="button" id="gameSaveState" onclick="saveState();">Save</button>
+      <button type="button" id="gameLoadState" onclick="loadState();" disabled>Load</button>
     </div>
     <p id="canvas">
     </p>
